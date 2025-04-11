@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    string nama, alamat, nim;
+    string nama, kelas, nim, hobi;
     int umur;
 
     // Input data dari user
@@ -14,19 +14,22 @@ int main() {
     cin >> umur;
     cin.ignore(); // untuk membersihkan buffer setelah input angka
 
-    cout << "Masukkan Alamat : ";
-    getline(cin, alamat);
+    cout << "Masukkan Kelas : ";
+    getline(cin, kelas);
 
     cout << "Masukkan NIM    : ";
     getline(cin, nim);
+
+     cout << "Masukkan Hobi    : ";
+     getline(cin, hobi);
 
     // Output data
     cout << "\n=== Data Diri ===" << endl;
     cout << "Nama   : " << nama << endl;
     cout << "Umur   : " << umur << " tahun" << endl;
-    cout << "Alamat : " << alamat << endl;
+    cout << "Kelas  : " << kelas << endl;
     cout << "NIM    : " << nim << endl;
+    cout << "Hobi   : " << nim << endl;
 
     return 0;
 }
-
