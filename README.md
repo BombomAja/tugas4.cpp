@@ -29,7 +29,7 @@ int main() {
     cout << "Umur   : " << umur << " tahun" << endl;
     cout << "Kelas  : " << kelas << endl;
     cout << "NIM    : " << nim << endl;
-    cout << "Hobi   : " << nim << endl;
+    cout << "Hobi   : " << hobi << endl;
 
     return 0;
 }
